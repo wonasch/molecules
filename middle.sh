@@ -1,1 +1,3 @@
-head -n 15 octane.pdb | tail -n 5 
+# add ability to run on any file
+
+head -n 15 "$1" | tail -n 5 
